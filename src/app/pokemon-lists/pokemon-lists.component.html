@@ -1,0 +1,52 @@
+<!-- card grid -->
+<hr class="hr-gold">
+<div class="row">
+  <div class="col-md-12">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th >List Index</th>
+          <th (click)="onSortCardData('name')" class="glow-shadow">Name</th>
+          <th >Thumbnail</th>
+          <th (click)="onSortCardData('set')" class="glow-shadow">Set</th>
+          <th (click)="onSortCardData('series')" class="glow-shadow">Series</th>
+          <th (click)="onSortCardData('id')" class="glow-shadow">ID</th>
+          <th (click)="onSortCardData('nationalPokedexNumber')" class="glow-shadow">National Pokedex Number</th>
+          <th (click)="onSortCardData('hp')" class="glow-shadow">Hit Points (HP)</th>
+          <th (click)="onSortCardData('types')" class="glow-shadow">Types</th>
+          <th (click)="onSortCardData('supertype')" class="glow-shadow">Super Type</th>
+          <th (click)="onSortCardData('subtype')" class="glow-shadow">Sub Type</th>
+          <th (click)="onSortCardData('artist')" class="glow-shadow">Artist</th>
+          <th (click)="onSortCardData('rarity')" class="glow-shadow">Rarity</th>
+          <th (click)="onSortCardData('types')" class="glow-shadow">Set Code</th>
+          <th (click)="onSortCardData('text')" class="glow-shadow">Text</th>
+          <th>Attacks (Names)</th>
+          <th>Resistances</th>
+          <th>Weaknesses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rC of receivedCards; let ndx = index">
+          <td>{{ndx}}</td>
+          <td>{{rC.name}}</td>
+          <td><img [src]="rC.imageUrl" class="image-thumbnail d-block" [alt]="rC.imageUrl" /></td>
+          <td>{{rC.set}}</td>
+          <td>{{rC.series}}</td>
+          <td>{{rC.id}}</td>
+          <td>{{rC.nationalPokedexNumber}}</td>
+          <td>{{rC.hp}}</td>
+          <td>{{rC.types}}</td>
+          <td>{{rC.supertype}}</td>
+          <td>{{rC.subtype}}</td>
+          <td>{{rC.artist}}</td>
+          <td>{{rC.rarity}}</td>
+          <td>{{rC.setCode}}</td>
+          <td style="min-width: 200px;">{{rC.text}}</td>
+          <td><span *ngFor="let at of rC.attacks">{{at.name}}<br></span></td>
+          <td><span *ngFor="let re of rC.resistances">{{re.type}} ({{re.value}})<br></span></td>
+          <td><span *ngFor="let we of rC.weaknesses">{{we.type}} ({{we.value}})<br></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

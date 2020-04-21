@@ -1,0 +1,712 @@
+{
+	"cards": [
+		{
+			"id": "sm9-184",
+			"name": "Pikachu & Zekrom-GX",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "TAG TEAM",
+			"hp": "240",
+			"retreatCost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"convertedRetreatCost": 3,
+			"number": "184",
+			"artist": "5ban Graphics",
+			"rarity": "Rare Secret",
+			"series": "Sun & Moon",
+			"set": "Team Up",
+			"setCode": "sm9",
+			"text": [
+				"When your TAG TEAM is knocked out, your opponent takes 3 Prize Cards."
+			],
+			"attacks": [
+				{
+					"cost": [
+						"Lightning",
+						"Lightning",
+						"Lightning"
+					],
+					"name": "Full Blitz",
+					"text": "Search your deck for up to 3 Lightning Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+					"damage": "150",
+					"convertedEnergyCost": 3
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Lightning",
+						"Lightning"
+					],
+					"name": "Tag Bolt-GX",
+					"text": "If this Pokémon has at least 3 extra Lightning Energy attached to it (in addition to this attack's cost), this attack does 170 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
+					"damage": "200",
+					"convertedEnergyCost": 3
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "smp-SM81",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "70",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "SM81",
+			"artist": "Sanosuke Sakuma",
+			"rarity": "",
+			"series": "Sun & Moon",
+			"set": "SM Black Star Promos",
+			"setCode": "smp",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Thunder Wave",
+					"text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Electro Ball",
+					"text": "",
+					"damage": "50",
+					"convertedEnergyCost": 3
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "sm11-56",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "70",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "56",
+			"artist": "Misa Tsutsui",
+			"rarity": "Common",
+			"series": "Sun & Moon",
+			"set": "Unified Minds",
+			"setCode": "sm11",
+			"attacks": [
+				{
+					"cost": [
+						"Colorless"
+					],
+					"name": "Tail Whap",
+					"text": "",
+					"damage": "10",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Electric Ball",
+					"text": "",
+					"damage": "50",
+					"convertedEnergyCost": 3
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "xy12-111",
+			"name": "Surfing Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "50",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "111",
+			"artist": "Toshinao Aoki",
+			"rarity": "Rare Secret",
+			"series": "XY",
+			"set": "Evolutions",
+			"setCode": "xy12",
+			"attacks": [
+				{
+					"cost": [
+						"Water",
+						"Water"
+					],
+					"name": "Surf",
+					"text": "",
+					"damage": "30",
+					"convertedEnergyCost": 2
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "smp-SM04",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "70",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "SM04",
+			"artist": "kirisAki",
+			"rarity": "",
+			"series": "Sun & Moon",
+			"set": "SM Black Star Promos",
+			"setCode": "smp",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Thunder Wave",
+					"text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Electro Ball",
+					"text": "",
+					"damage": "50",
+					"convertedEnergyCost": 3
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "smp-SM162",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "SM162",
+			"artist": "Saya Tsuruta",
+			"rarity": "",
+			"series": "Sun & Moon",
+			"set": "SM Black Star Promos",
+			"setCode": "smp",
+			"attacks": [
+				{
+					"cost": [
+						"Colorless"
+					],
+					"name": "Nuzzle",
+					"text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Colorless"
+					],
+					"name": "Thunder Jolt",
+					"text": "This Pokémon does 10 damage to itself.",
+					"damage": "30",
+					"convertedEnergyCost": 2
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "xyp-XY202",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "50",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "XY202",
+			"artist": "Ken Sugimori",
+			"series": "XY",
+			"set": "XY Black Star Promos",
+			"setCode": "xyp",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Charge",
+					"text": "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Lightning",
+						"Lightning"
+					],
+					"name": "Thunderbolt",
+					"text": "Discard all Energy attached to this Pokémon.",
+					"damage": "70",
+					"convertedEnergyCost": 3
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "g1-rc29",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSshhzEgfNjT8zrJ8HZNv77KdOd60H_oxFH8eAyQECz1sIekezk",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "RC29",
+			"artist": "Kagemaru Himeno",
+			"rarity": "Rare Ultra",
+			"series": "XY",
+			"set": "Generations",
+			"setCode": "g1",
+			"attacks": [
+				{
+					"cost": [
+						"Colorless"
+					],
+					"name": "Nuzzle",
+					"text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Quick Attack",
+					"text": "Flip a coin. If heads, this attack does 10 more damage.",
+					"damage": "20+",
+					"convertedEnergyCost": 2
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "hsp-HGSS03",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://images.pokemontcg.io/hsp/HGSS03.png",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "70",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "HGSS03",
+			"artist": "Kanako Eo",
+			"series": "HeartGold & SoulSilver",
+			"set": "HGSS Black Star Promos",
+			"setCode": "hsp",
+			"attacks": [
+				{
+					"cost": [
+						"Colorless"
+					],
+					"name": "Recharge",
+					"text": "Flip a coin. If heads, search your deck for a Lightning Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Lightning",
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Thunderbolt",
+					"text": "Discard all Energy attached to Pikachu.",
+					"damage": "100",
+					"convertedEnergyCost": 4
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "+10"
+				}
+			]
+		},
+		{
+			"id": "bwp-BW54",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://images.pokemontcg.io/bwp/BW54.png",
+			"imageUrlHiRes": "https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "BW54",
+			"artist": "5ban Graphics",
+			"rarity": "",
+			"series": "BW",
+			"set": "BW Black Star Promos",
+			"setCode": "bwp",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Quick Attack",
+					"text": "Flip a coin. If heads, this attack does 10 more damage.",
+					"damage": "10+",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Lightning",
+						"Colorless"
+					],
+					"name": "Electro Ball",
+					"text": "",
+					"damage": "50",
+					"convertedEnergyCost": 3
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "xy8-48",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "",
+			"imageUrlHiRes": "",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "48",
+			"artist": "Kouki Saitou",
+			"rarity": "Common",
+			"series": "XY",
+			"set": "BREAKthrough",
+			"setCode": "xy8",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Gnaw",
+					"text": "",
+					"damage": "10",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Agility",
+					"text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+					"damage": "10",
+					"convertedEnergyCost": 2
+				}
+			],
+			"resistances": [
+				{
+					"type": "Metal",
+					"value": "-20"
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "bw11-RC7",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "https://images.pokemontcg.io/bw11/RC7.png",
+			"imageUrlHiRes": "",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "RC7",
+			"artist": "Atsuko Nishida",
+			"rarity": "Uncommon",
+			"series": "Black & White",
+			"set": "Legendary Treasures",
+			"setCode": "bw11",
+			"attacks": [
+				{
+					"cost": [
+						"Lightning"
+					],
+					"name": "Thundershock",
+					"text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+					"damage": "10",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Colorless",
+						"Colorless"
+					],
+					"name": "Tail Whap",
+					"text": "",
+					"damage": "20",
+					"convertedEnergyCost": 2
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		},
+		{
+			"id": "swsh1-65",
+			"name": "Pikachu",
+			"nationalPokedexNumber": 25,
+			"imageUrl": "",
+			"imageUrlHiRes": "",
+			"types": [
+				"Lightning"
+			],
+			"supertype": "Pokémon",
+			"subtype": "Basic",
+			"hp": "60",
+			"retreatCost": [
+				"Colorless"
+			],
+			"convertedRetreatCost": 1,
+			"number": "65",
+			"artist": "Ryuta Fuse",
+			"rarity": "Common",
+			"series": "Sword & Shield",
+			"set": "Sword & Shield",
+			"setCode": "swsh1",
+			"attacks": [
+				{
+					"cost": [
+						"Colorless"
+					],
+					"name": "Charge",
+					"text": "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+					"damage": "",
+					"convertedEnergyCost": 1
+				},
+				{
+					"cost": [
+						"Lightning",
+						"Colorless"
+					],
+					"name": "Electro Ball",
+					"text": "",
+					"damage": "20",
+					"convertedEnergyCost": 2
+				}
+			],
+			"weaknesses": [
+				{
+					"type": "Fighting",
+					"value": "×2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+<!-- Select All Option -->
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="downloadAllCheck"
+                (change)="onChangeSelectAll($event.target.checked)">
+            <label class="form-check-label">Select All</label>
+        </div>
+    </div>
+</div>
+<hr class="hr-gold">
+
+<!-- card grid -->
+<div class="row">
+    <div class="col-md-4" *ngFor="let rC of receivedCards; let ndx = index" style="height: 100%;">
+        <!-- card itself -->
+        <div class="card text-white bg-dark mb-3 border-gold glow-shadow"
+            [ngClass]="{'glow-selected':(selectedCards.includes(ndx))}" (click)="tcgCardClicked(ndx)" (dblclick)="tcgCardDblClicked(ndx)">
+            <!-- top of image -->
+            <h3 class="card-header">{{rC.name}}</h3>
+            <div class="card-body">
+                <h5 class="card-title d-flex justify-content-between align-items-center">
+                    Set<span>{{rC.set}}</span>
+                </h5>
+                <h6 class="card-subtitle text-muted d-flex justify-content-between align-items-center">
+                    Series<span>{{rC.series}}</span>
+                </h6>
+            </div>
+            <!-- images... load hi or low resolution? -->
+            <div class="card-body">
+                <div *ngIf="imgResloution === 'hiResolutionImages'; else tmplLowRes">
+                    <img [src]="rC.imageUrlHiRes" class="image-hi-res mx-auto d-block" [alt]="rC.imageUrlHiRes" />
+                </div>
+                <ng-template #tmplLowRes>
+                    <img [src]="rC.imageUrl" class="image-low-res mx-auto d-block" [alt]="rC.imageUrl" />
+                </ng-template>
+            </div>
+
+            <!-- below image -->
+            <div class="card-body">
+                <p class="card-text">{{rC.text}}</p>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    ID
+                    <span class="badge">{{rC.id}}</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    National Pokedex Number
+                    <span class="badge">{{rC.nationalPokedexNumber}}</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Hit Points (HP)
+                    <span class="badge">{{rC.hp}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
