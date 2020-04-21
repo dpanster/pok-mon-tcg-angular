@@ -9,7 +9,7 @@ import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms'
 import { HttpService } from './../service/http.service';
 import { DataExchangeService } from './../service/data-exchange.service';
 import { ICard } from './../interface/tcg';
-import * as TCG from './../test/tcg_BAM.json';
+import * as TCG from './../test/tcg.json';
 import { timer } from 'rxjs';
 
 // import { state, style, trigger, transition, animate, keyframes } from '@angular/animations';
