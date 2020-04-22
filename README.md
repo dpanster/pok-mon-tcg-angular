@@ -4,7 +4,7 @@
 
 * Link to published github page: https://dpanster.github.io/pokemon-tcg-angular/<br>
     <a href="https://dpanster.github.io/pokemon-tcg-angular/">
-        <img src="/src/assets/thumb_page.png" title="page thumb">
+        <img src="/src/assets/thumb_page.png" width=512 title="page thumb">
     </a>
 
 	
