@@ -20,6 +20,7 @@ export class AppComponent {
   public pokemonName: string;
   public selectedCards = <number[]>[];
   private _imgResloution: string;
+  public egCurlCommand = `'$ (cd C:/tmp/images && xargs -n 1 curl -O < C:/tmp/testUrl.txt)'`;
 
   constructor(private data: DataExchangeService, private httpSrvc: HttpService) {
 

@@ -18,8 +18,9 @@
             </p>
             <P>
                 <small>
-                    I know there are enough search sites. But, here you can easily download the card images. Select the
-                    cards and press 'Download'.
+                    I know there are enough search sites. But, here you can easily download a list with the selected
+                    images links.
+                    Select the cards and press 'Download'.
                 </small>
             </P>
         </div>
@@ -39,10 +40,17 @@
 
 
 <!-- Results -->
-<div *ngIf="receivedCards.length!==0" class="container-fluid">
+<div *ngIf="receivedCards.length!==undefined" class="container">
+    <!-- show result string or error message; initialstate is no content with no error message -->
+    <h3>
+        <p>
+            Search result for cards contain '{{pokemonName}}': {{receivedCards.length}}
+            <small class="text-muted">/ max. 100</small>
+        </p>
+    </h3>
     <hr class="hr-gold">
     <div class="row ">
-        <div class="col-md-4">
+        <div class="col-md">
             <div class="card text-white bg-dark mb-3 border-gold">
                 <div class="card-body">
                     <div class="row ">
@@ -65,20 +73,34 @@
                         </div>
                         <!-- Download Images -->
                         <div class="col-md" *ngIf="viewOption === 'gallery'; else viewNoDownload">
-                            <h5 class="card-title">Download Images:</h5>
-                            '$ (cd C:/tmp/images && xargs -n 1 curl -O < C:/tmp/testUrl.txt)'
-                            <div>
-                                <label class="form-check-label">You selected '{{selectedCards.length}}' card<span
-                                        *ngIf="selectedCards.length!==1">s</span>.
-                                </label>
+                            <div class="row">
+                                <div class="col-md">
+                                    <h5 class="card-title">Download image links:</h5>
+                                    <p>
+                                        <label class="form-check-label">You selected '{{selectedCards.length}}'
+                                            card<span *ngIf="selectedCards.length!==1">s</span>.
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <button (click)="onClickDownload()" [disabled]="selectedCards.length===0"
+                                            class="btn btn-primary">Download</button>
+                                    </p>
+
+                                </div>
+                                <div class="col-md">
+                                    <p>Info: You can automatically download the links to the images in the text file to
+                                        one directory on your disk. For example with the help of the
+                                        <strong>curl</strong> command, in bash.
+                                    </p>
+                                    <p>
+                                        <small class="text-info"><em>{{egCurlCommand}}</em></small>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <ng-template #viewNoDownload>
                             Please select 'Gallery View' to select and download images.
                         </ng-template>
-                        <div class="col-md" *ngIf="viewOption === 'gallery'">
-                            <button (click)="onClickDownload()" [disabled]="selectedCards.length===0" class="btn btn-primary">Download</button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -88,18 +110,6 @@
     <!-- View result -->
     <div class="row ">
         <div class="col">
-            <!-- show result string or error message; initialstate is no content with no error message -->
-            <div *ngIf="receivedCards.length !== 0">
-
-                <h3>
-                    <p>
-                        Search result for cards contain '{{pokemonName}}': {{receivedCards.length}}
-                        <small class="text-muted">/ max. 100</small>
-                    </p>
-                </h3>
-
-            </div>
-
             <div *ngIf="viewOption === 'gallery'; else viewListTemplate">
                 <app-pokemon-cards></app-pokemon-cards>
             </div>

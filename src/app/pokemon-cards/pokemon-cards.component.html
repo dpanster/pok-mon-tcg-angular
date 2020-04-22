@@ -1,11 +1,14 @@
 <!-- Select All Option -->
-<div class="row">
+<div *ngIf="receivedCards.length!==0" class="row">
     <div class="col-md-4">
         <div class="form-check">
             <input type="checkbox" class="form-check-input" name="downloadAllCheck"
                 (change)="onChangeSelectAll($event.target.checked)">
             <label class="form-check-label">Select All</label>
         </div>
+    </div>
+    <div class="col-md">
+        <label class=text-info>With a double click on a card, you download the image to a new tab. A single click highlight the card for image link download.</label>
     </div>
 </div>
 <hr class="hr-gold">
