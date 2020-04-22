@@ -2,23 +2,14 @@
 <h1>Pokémon - <b>T</b>rading <b>C</b>ard <b>G</b>ame - Search</h1>
 ==================================================
 
-* Link to published github page:<br>
+* Link to published github page: https://dpanster.github.io/pokemon-tcg-angular/<br>
     <a href="https://dpanster.github.io/pokemon-tcg-angular/">
-        <img src="/src/assets/screens/thumb_page.png" title="page thumb">
+        <img src="/src/assets/thumb_page.png" title="page thumb">
     </a>
 
 	
 ==================================================
 # Build on version:
-
-
-     _                      _                 ____ _     ___
-    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
-   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
-  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
- /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
-                |___/
-    
 
 Angular CLI: 7.0.7
 Node: 8.11.3
