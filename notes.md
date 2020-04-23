@@ -7,10 +7,10 @@
 `ng build --prod --base-href="https://dpanster.github.io/pokemon-tcg-angular/"`
 
 * A dry run test
-`px ngh --dry-run --no-silent`
+`npx ngh --dry-run --no-silent`
 
 * publish to (new) branch gh-pages with all verbose messages
-`npx ngh --dir=dist/<projectname>/ --no-silent`
+`npx ngh --dir=dist/ --no-silent`
 
 * Choose the source in your project settings for gh-pages on github repository
 `Project-->settings-->GitHub Pages-->Source-->gh-pages branch`
