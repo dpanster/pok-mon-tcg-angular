@@ -2,10 +2,13 @@
 <h1>Pokémon - <b>T</b>rading <b>C</b>ard <b>G</b>ame - Search</h1>
 ==================================================
 
-* Link to published github page: https://dpanster.github.io/pokemon-tcg-angular/<br>
-    <a href="https://dpanster.github.io/pokemon-tcg-angular/">
-        <img src="/src/assets/thumb_page.png" width=512 title="page thumb">
-    </a>
+* Link to published github page: https://dpanster.github.io/pokemon-tcg-angular/
+
+![](https://media.giphy.com/media/dVoljIBs3vRGo7FLtf/giphy.gif)
+
+<!-- <a href="https://dpanster.github.io/pokemon-tcg-angular/">
+    <img src="/src/assets/thumb_page.png" width=512 title="page thumb">
+</a> -->
 
 	
 ==================================================
