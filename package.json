@@ -4,11 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build",
+    "build-dev": "ng build --dev",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "git-push": "git push origin master"
+    "git-push-master": "git push origin master",
+    "build-gh-pages" : "ng build --prod --base-href=\"https://dpanster.github.io/pokemon-tcg-angular/\""
   },
   "private": true,
   "dependencies": {
