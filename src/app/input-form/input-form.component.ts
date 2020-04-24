@@ -160,9 +160,9 @@ export class InputFormComponent implements OnInit, AfterViewInit {
 
     let sMp3: string;
     if ((Math.round(Math.random())) === 1) {
-      sMp3 = './../../assets/pikaaaa.mp3';
+      sMp3 = '/pokemon-tcg-angular/assets/pikaaaa.mp3';
     } else {
-      sMp3 = './../../assets/PikaPikaHappy.mp3';
+      sMp3 = '/pokemon-tcg-angular/assets/PikaPikaHappy.mp3';
     }
     this.audioElement = new Audio(sMp3);
     // this.audioElement.pause();
